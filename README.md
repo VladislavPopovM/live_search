@@ -1,4 +1,6 @@
-# auto_complete
+# Live_search
+
+![alt text](https://c.radikal.ru/c01/2012/7a/92cdad64b88a.png)
 
 ## Project setup
 ```
