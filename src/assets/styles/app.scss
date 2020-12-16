@@ -1,0 +1,65 @@
+html, body{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.head{
+    min-width: 100%;
+    min-height: 10vh;
+    background-color: rgb(255, 255, 255);
+    .sub-header{
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+        min-height: 2vh;
+        font-size: 14px;
+        background-color:rgb(240, 240, 240);
+        border-bottom: 1px solid rgb(220, 220, 220);
+
+        #map{
+            color: rgb(150, 150, 150);
+        }
+
+        #navbarDropdown{
+            color: rgb(150, 150, 150);
+        }
+
+          
+        .autocomplete-result {
+            border-top: 1px solid #eee;
+            padding: 16px;
+            background: transparent;
+        }
+          
+        .group {
+            padding: 16px;
+            text-transform: uppercase;
+            font-size: 14px;
+            background: rgba(0, 0, 0, 0.06);
+        }
+    }
+    .header{
+        min-width: 100%;
+        min-height: 7vh;
+        background-color:rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(220, 220, 220);
+        display:flex;
+        align-items:center;
+        #Search{
+            margin-left: auto;
+            margin-right: auto;
+            height: 4vh;
+        }
+
+        .Circle{
+            background-color: rgb(168, 7, 168);
+            color :white;
+            font-size: 20;
+            height: 50px;
+            width: 50px;
+            border: 0;
+            border-radius: 30px;
+        }
+    }
+}
